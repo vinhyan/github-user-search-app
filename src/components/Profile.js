@@ -193,7 +193,7 @@ const ProfileCardStyled = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 60px;
     margin-bottom: 16px;
 
     > div {
@@ -279,6 +279,7 @@ const StatsStyled = styled.div`
     justify-content: flex-start;
     text-align: left;
     padding: 15px 32px;
+    margin: 30px 0;
 
     > div {
       flex: 1;
@@ -286,7 +287,7 @@ const StatsStyled = styled.div`
   }
 
   @media (min-width: 1440px) {
-    margin: 21px 0;
+    margin: 32px 0 37px 0;
 
     h2 {
       font-size: 22px;
