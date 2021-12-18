@@ -30,10 +30,15 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop
 ![Desktop - Light Mode](./reference/desktop-light.png)
 ![Desktop - Dark Mode](./reference/desktop-dark.png)
+
+Tablet
 ![Tablet - Light Mode](./reference/tablet-light.png)
 ![Tablet - Dark Mode](./reference/tablet-dark.png)
+
+Mobile
 ![Mobile - Light Mode](./reference/mobile-light.png)
 ![Mobile - Dark Mode](./reference/mobile-dark.png)
 
