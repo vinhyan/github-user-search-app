@@ -133,7 +133,7 @@ const Profile = () => {
                       userData.twitter_username ? "" : "not-available"
                     }`}
                   >
-                    {userData.twitter_username || "Not Available"}
+                    {`@${userData.twitter_username}` || "Not Available"}
                   </p>
                 </AddInfoCardStyled>
                 <AddInfoCardStyled>
@@ -313,6 +313,9 @@ const AddInfoCardStyled = styled.div`
 
   p {
     width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .not-available {
